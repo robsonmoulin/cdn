@@ -1,0 +1,31 @@
+/**********************************************
+
+ Arquivo  de Customização do IBM Forms para a 
+ Pesquisa de Clima Organizacional (PCO)
+ Versão: 1.0
+ Data: 12/04/2017
+
+***********************************************/
+
+.lfFormBox{
+    width: 100% !important
+}
+
+.dijitTextBox {
+    width: 100% !important;
+    color: #333;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px 8px;
+    min-height: 32px;
+    border:1px solid #a9a9a9;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.dijitTextBox:focus{
+    border:solid 1px #006699;
+    box-shadow:0 0 2px #006699; 
+}
